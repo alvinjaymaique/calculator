@@ -265,6 +265,11 @@ body{
 } */
 
 @media only screen and (max-width: 600px){
+
+    body{
+        width: 120vw;
+    }
+
     #flex-container{
         display: flex;
         flex-direction: column;
