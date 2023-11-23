@@ -272,7 +272,7 @@ body{
     }
 
     #template{
-        width: 40vw;
-        min-width: 300px;
+        width: 300px;
+        min-width: 200px;
     }
 }
