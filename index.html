@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- This is font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;600;900&display=swap" rel="stylesheet">
+    <!-- font-family: 'Poppins', sans-serif; -->
+
+
+    <!-- This is icon -->
+    <!-- history -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" /> 
+    <!-- trash bin -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <title>Standard Calculator</title>
+</head>
+<body>
+    <!-- <div>&copy; Alvin Jay B. Maique</div> -->
+    <div id="flex-container">
+        <div id="note"><p>This calculator is based on my laptop's standard calculator</p></div> 
+
+        <div id="template">         
+            <div id="history-template">
+                <div id="history-upper"></div>
+                <div id="history-body"><div id="hist-text">There's no history yet</div></div>  
+                <div id="logo-clear" ><div id="logo-box" title="Clear all history"><span class="material-symbols-outlined">delete</span></div></div>  
+            </div>      
+            <!-- <div class="history-item"><div class="hist-equation">Equation</div><div class="hist-ans">Answer</div></div> -->
+                    <div id="display0">
+                        <div id="logoHistory"><span class="material-symbols-outlined">History</span></div>
+                    </div>
+                    <div id="display1"></div>
+                    <div id="display2">0</div>    
+                    <button class="btn btnPercent">%</button> 
+                    <button class="btn btnCE">CE</button>
+                    <button class="btn btnC">C</button>
+                    <button class="btn btnErase">X</button>
+                    <button class="btn btnReciprocal">1/x</button>
+                    <button class="btn btnSquared">x<sup>2</sup></button>
+                    <button class="btn btnSqrt"><sup>2</sup>√x</button>
+                    <button class="btn btnOp">÷</button>
+                    <button class="btn btn7">7</button>
+                    <button class="btn btn8">8</button>
+                    <button class="btn btn9">9</button>
+                    <button class="btn btnOp">*</button>
+                    <button class="btn btn4">4</button>
+                    <button class="btn btn5">5</button>
+                    <button class="btn btn6">6</button>
+                    <button class="btn btnOp">-</button>
+                    <button class="btn btn1">1</button>
+                    <button class="btn btn2">2</button>
+                    <button class="btn btn3">3</button>
+                    <button class="btn btnOp">+</button>
+                    <button class="btn btnNegate">+/-</button>
+                    <button class="btn btn0">0</button>
+                    <button class="btn btnPoint">.</button>
+                    <button class="btn btnEqual">=</button>
+        </div>  
+
+        <!-- <div id="orig-calc-img"></div>      -->
+    </div>
+    
+        
+    
+    <script src="script.js"></script>    
+</body>
+</html>
